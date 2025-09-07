@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculet</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="contener">
+      <div class="calculet">
+        <div class="top">
+          <div class="" style="margin-left: 20px;">
+            <i class="fa fa-cog" style="margin-right: 20px;"></i>
+
+            <i class="fa fa-lock"></i>
+          </div>
+          <button id="dark" onclick="darkMood()">dark</button>
+        </div>
+        <input type="" id="input" p readonly />
+        <button class="del" onclick="clearInput()">DEL</button>
+        <div class="">
+          <div class="key" id="key">
+            <button onclick="calculet('7')">7</button>
+            <button onclick="calculet('8')">8</button>
+            <button onclick="calculet('9')">9</button>
+
+            <button onclick="calculet('/')" class="side-btn">/</button>
+
+            <button onclick="calculet('4')">4</button>
+            <button onclick="calculet('5')">5</button>
+            <button onclick="calculet('6')">6</button>
+
+            <button onclick="calculet('-')" class="side-btn">-</button>
+
+            <button onclick="calculet('1')">1</button>
+            <button onclick="calculet('2')">2</button>
+            <button onclick="calculet('3')">3</button>
+
+            <button onclick="calculet('*')" class="side-btn">*</button>
+
+            <button onclick="calculet('.')">.</button>
+            <button onclick="sumNumbers()" class="btn">=</button>
+            <button onclick="calculet('+')" class="side-btn">+</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="scipt.js"></script>
+  </body>
+</html>

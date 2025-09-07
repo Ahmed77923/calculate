@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.contener {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.calculet {
+  max-width: 500px;
+  display: grid;
+  height: auto;
+  background-color: rgb(255, 255, 255);
+  grid-template-rows: repeat(3);
+}
+#input {
+  width: 100%;
+  padding: 40px;
+  border: none;
+  outline: none;
+  font-size: 30px;
+  background-color: transparent;
+  color: black;
+}
+.calculet .top {
+  width: 95%;
+  align-items: center;
+  display: flex;
+  margin-top: 29px;
+  justify-content: space-between;
+}
+.calculet .top button {
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+}
+
+.calculet .del {
+  width: 80px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  
+  margin-left: 400px;
+}
+
+.key button {
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  border: none;
+  font-size: 35px;
+  color: white;
+  background-color: hsl(0, 0%, 50%);
+}
+.key button:hover {
+  background-color: hsl(0, 0%, 60%);
+}
+.key button:active {
+  background-color: hsl(0, 0%, 70%);
+}
+.key .btn {
+  width: 220px;
+  border-radius: 10px;
+}
+.key .side-btn {
+  background-color: hsl(300, 100%, 44%);
+}
+.key .side-btn:hover {
+  background-color: hsl(300, 100%, 64%);
+}
+.key .side-btn:active {
+  background-color: hsl(300, 100%, 84%);
+}
