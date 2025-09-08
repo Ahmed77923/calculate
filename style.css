@@ -59,6 +59,16 @@
   color: white;
   background-color: hsl(0, 0%, 50%);
 }
+@media screen and (max-width:500px) {
+  .calculet{
+    text-align: center;
+    max-width: 450px;height: 150vh;
+  }
+  .key button {
+    width: 90px;
+  }
+  
+}
 .key button:hover {
   background-color: hsl(0, 0%, 60%);
 }
